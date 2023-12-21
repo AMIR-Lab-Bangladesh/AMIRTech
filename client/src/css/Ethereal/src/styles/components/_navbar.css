@@ -1,10 +1,20 @@
 @import "../variables/_colors.css";
 
+.navbar-wrapper {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 .navbar {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-direction: row;
   align-items: center;
+  width: fit-content;
 }
 
 .navbar-brand {
@@ -25,15 +35,25 @@
 .navbar-menu li a {
   padding: 0.5rem 1rem;
   text-decoration: none;
+  color: #bbbb;
+  transition: all 0.3s ease-in-out;
 }
 
 /* .navbar-menu li a:hover {
   color: var(--color-primary);
 } */
 
-.hover\:text-green:hover {
-  color: #00cc00; /* Change the text color to green on hover */
+.hover\:text-white:hover {
+  color: #fff;
 }
+
+@media screen and (min-width: 768px) {
+  .lg\:mx {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+}
+
 .navbar-menu li a.active {
   color: var(--color-primary);
 }
@@ -73,9 +93,10 @@
 }
 
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+  position: sticky;
+  top: 0.5rem;
+  left: 0;
+  right: 0;
   z-index: 1;
 }
 

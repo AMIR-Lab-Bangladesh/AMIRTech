@@ -459,3 +459,7 @@
 .bg-lime-dark {
   background: var(--color-lime-dark);
 }
+
+.bg-amirtech-dark {
+  background-color: #1d1d1d;
+}

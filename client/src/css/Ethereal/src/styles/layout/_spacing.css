@@ -705,3 +705,7 @@
 .m-15 {
   margin: 22rem;
 }
+
+.w-full {
+  width: 100%;
+}

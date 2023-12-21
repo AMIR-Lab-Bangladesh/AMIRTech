@@ -1,0 +1,19 @@
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-sm {
+  border-radius: 0.2rem;
+}
+
+.rounded-md {
+  border-radius: 0.3rem;
+}
+
+.rounded-lg {
+  border-radius: 0.4rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
