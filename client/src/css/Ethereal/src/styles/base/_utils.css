@@ -1,0 +1,461 @@
+@import "../variables/_colors.css";
+
+/* Text Colors  */
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.text-secondary {
+  color: var(--color-secondary);
+}
+
+.text-success {
+  color: var(--color-success);
+}
+
+.text-info {
+  color: var(--color-info);
+}
+
+.text-warning {
+  color: var(--color-warning);
+}
+
+.text-danger {
+  color: var(--color-danger);
+}
+
+.text-tertiary {
+  color: var(--color-tertiary);
+}
+
+.text-quaternary {
+  color: var(--color-quaternary);
+}
+
+.text-quinary {
+  color: var(--color-quinary);
+}
+
+.text-senary {
+  color: var(--color-senary);
+}
+
+.text-septenary {
+  color: var(--color-septenary);
+}
+
+.text-octonary {
+  color: var(--color-octonary);
+}
+
+.text-nonary {
+  color: var(--color-nonary);
+}
+
+.text-denary {
+  color: var(--color-denary);
+}
+
+.text-light {
+  color: var(--color-light);
+}
+
+.text-dark {
+  color: var(--color-dark);
+}
+
+.text-black {
+  color: var(--color-black);
+}
+
+.text-white {
+  color: var(--color-white);
+}
+
+.text-gray {
+  color: var(--color-gray);
+}
+
+.text-gray-light {
+  color: var(--color-gray-light);
+}
+
+.text-gray-dark {
+  color: var(--color-gray-dark);
+}
+
+.text-red {
+  color: var(--color-red);
+}
+
+.text-red-light {
+  color: var(--color-red-light);
+}
+
+.text-red-dark {
+  color: var(--color-red-dark);
+}
+
+.text-blue {
+  color: var(--color-blue);
+}
+
+.text-blue-light {
+  color: var(--color-blue-light);
+}
+
+.text-blue-dark {
+  color: var(--color-blue-dark);
+}
+
+.text-green {
+  color: var(--color-green);
+}
+
+.text-green-light {
+  color: var(--color-green-light);
+}
+
+.text-green-dark {
+  color: var(--color-green-dark);
+}
+
+.text-yellow {
+  color: var(--color-yellow);
+}
+
+.text-yellow-light {
+  color: var(--color-yellow-light);
+}
+
+.text-yellow-dark {
+  color: var(--color-yellow-dark);
+}
+
+.text-orange {
+  color: var(--color-orange);
+}
+
+.text-orange-light {
+  color: var(--color-orange-light);
+}
+
+.text-orange-dark {
+  color: var(--color-orange-dark);
+}
+
+.text-purple {
+  color: var(--color-purple);
+}
+
+.text-purple-light {
+  color: var(--color-purple-light);
+}
+
+.text-purple-dark {
+  color: var(--color-purple-dark);
+}
+
+.text-pink {
+  color: var(--color-pink);
+}
+
+.text-pink-light {
+  color: var(--color-pink-light);
+}
+
+.text-pink-dark {
+  color: var(--color-pink-dark);
+}
+
+.text-brown {
+  color: var(--color-brown);
+}
+
+.text-brown-light {
+  color: var(--color-brown-light);
+}
+
+.text-brown-dark {
+  color: var(--color-brown-dark);
+}
+
+.text-cyan {
+  color: var(--color-cyan);
+}
+
+.text-cyan-light {
+  color: var(--color-cyan-light);
+}
+
+.text-cyan-dark {
+  color: var(--color-cyan-dark);
+}
+
+.text-indigo {
+  color: var(--color-indigo);
+}
+
+.text-indigo-light {
+  color: var(--color-indigo-light);
+}
+
+.text-indigo-dark {
+  color: var(--color-indigo-dark);
+}
+
+.text-teal {
+  color: var(--color-teal);
+}
+
+.text-teal-light {
+  color: var(--color-teal-light);
+}
+
+.text-teal-dark {
+  color: var(--color-teal-dark);
+}
+
+.text-lime {
+  color: var(--color-lime);
+}
+
+.text-lime-light {
+  color: var(--color-lime-light);
+}
+
+.text-lime-dark {
+  color: var(--color-lime-dark);
+}
+
+/* Background Colors  */
+
+.bg-primary {
+  background: var(--color-primary);
+}
+
+.bg-secondary {
+  background: var(--color-secondary);
+}
+
+.bg-success {
+  background: var(--color-success);
+}
+
+.bg-info {
+  background: var(--color-info);
+}
+
+.bg-warning {
+  background: var(--color-warning);
+}
+
+.bg-danger {
+  background: var(--color-danger);
+}
+
+.bg-tertiary {
+  background: var(--color-tertiary);
+}
+
+.bg-quaternary {
+  background: var(--color-quaternary);
+}
+
+.bg-quinary {
+  background: var(--color-quinary);
+}
+
+.bg-senary {
+  background: var(--color-senary);
+}
+
+.bg-septenary {
+  background: var(--color-septenary);
+}
+
+.bg-octonary {
+  background: var(--color-octonary);
+}
+
+.bg-nonary {
+  background: var(--color-nonary);
+}
+
+.bg-denary {
+  background: var(--color-denary);
+}
+
+.bg-light {
+  background: var(--color-light);
+}
+
+.bg-dark {
+  background: var(--color-dark);
+}
+
+.bg-black {
+  background: var(--color-black);
+}
+
+.bg-white {
+  background: var(--color-white);
+}
+
+.bg-gray {
+  background: var(--color-gray);
+}
+
+.bg-gray-light {
+  background: var(--color-gray-light);
+}
+
+.bg-gray-dark {
+  background: var(--color-gray-dark);
+}
+
+.bg-red {
+  background: var(--color-red);
+}
+
+.bg-red-light {
+  background: var(--color-red-light);
+}
+
+.bg-red-dark {
+  background: var(--color-red-dark);
+}
+
+.bg-blue {
+  background: var(--color-blue);
+}
+
+.bg-blue-light {
+  background: var(--color-blue-light);
+}
+
+.bg-blue-dark {
+  background: var(--color-blue-dark);
+}
+
+.bg-green {
+  background: var(--color-green);
+}
+
+.bg-green-light {
+  background: var(--color-green-light);
+}
+
+.bg-green-dark {
+  background: var(--color-green-dark);
+}
+
+.bg-yellow {
+  background: var(--color-yellow);
+}
+
+.bg-yellow-light {
+  background: var(--color-yellow-light);
+}
+
+.bg-yellow-dark {
+  background: var(--color-yellow-dark);
+}
+
+.bg-orange {
+  background: var(--color-orange);
+}
+
+.bg-orange-light {
+  background: var(--color-orange-light);
+}
+
+.bg-orange-dark {
+  background: var(--color-orange-dark);
+}
+
+.bg-purple {
+  background: var(--color-purple);
+}
+
+.bg-purple-light {
+  background: var(--color-purple-light);
+}
+
+.bg-purple-dark {
+  background: var(--color-purple-dark);
+}
+
+.bg-pink {
+  background: var(--color-pink);
+}
+
+.bg-pink-light {
+  background: var(--color-pink-light);
+}
+
+.bg-pink-dark {
+  background: var(--color-pink-dark);
+}
+
+.bg-brown {
+  background: var(--color-brown);
+}
+
+.bg-brown-light {
+  background: var(--color-brown-light);
+}
+
+.bg-brown-dark {
+  background: var(--color-brown-dark);
+}
+
+.bg-cyan {
+  background: var(--color-cyan);
+}
+
+.bg-cyan-light {
+  background: var(--color-cyan-light);
+}
+
+.bg-cyan-dark {
+  background: var(--color-cyan-dark);
+}
+
+.bg-indigo {
+  background: var(--color-indigo);
+}
+
+.bg-indigo-light {
+  background: var(--color-indigo-light);
+}
+
+.bg-indigo-dark {
+  background: var(--color-indigo-dark);
+}
+
+.bg-teal {
+  background: var(--color-teal);
+}
+
+.bg-teal-light {
+  background: var(--color-teal-light);
+}
+
+.bg-teal-dark {
+  background: var(--color-teal-dark);
+}
+
+.bg-lime {
+  background: var(--color-lime);
+}
+
+.bg-lime-light {
+  background: var(--color-lime-light);
+}
+
+.bg-lime-dark {
+  background: var(--color-lime-dark);
+}
