@@ -6,8 +6,8 @@ from .models import Team
 
 @admin.register(Team)
 class TeamAdmin(admin.ModelAdmin):
-    list_display = ('name', 'about', 'profile_pic', 'designation', 'seniority',
-                    'email', 'phone', 'address', 'experience', 'education', 'social_link')
-    search_fields = ('name', 'about', 'profile_pic', 'designation', 'seniority',
-                     'email', 'phone', 'address', 'experience', 'education', 'social_link')
+    list_display = ('name', 'about', 'profile_pic', 'seniority',
+                    'email', 'phone', 'address')
+    search_fields = ('name', 'about', 'profile_pic', 'seniority',
+                     'email', 'phone', 'address')
     readonly_fields = ('id',)
