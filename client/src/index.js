@@ -5,6 +5,8 @@ import "./index.css";
 import Router from "./Router";
 import API_URL from "./config";
 import axios from "axios";
+import { Provider } from "react-redux";
+import store from "./redux/store";
 
 export const axiosInstance = axios.create({
   baseURL: API_URL,
@@ -31,7 +33,7 @@ axiosInstance.interceptors.request.use(
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
+  <Provider store={store}>
     <Router />
-  </React.StrictMode>
+  </Provider>
 );
