@@ -13,21 +13,18 @@ const Login = () => {
 
         <form className="mt-10">
           <div className="mb-5">
-            <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
-              Email
-            </label>
             <input
               type="email"
               name="email"
               id="email"
               placeholder="
                 Enter Email"
-              className="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent"
+              className="w-full px-3 py-2 mb-3 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent"
             />
 
             <input type="password" name="password" id="password" placeholder="Enter Password" className="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent" />
 
-            <button type="submit" className="w-full px-3 py-4 mt-5 text-white bg-red rounded-md focus:bg-blue-500 focus:outline-none">
+            <button type="submit" className="w-full px-3 py-4 mt-5 text-white bg-purple rounded-md focus:bg-blue-500 focus:outline-none">
               Login
             </button>
 
