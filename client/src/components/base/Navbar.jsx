@@ -30,6 +30,11 @@ const Navbar = () => {
               Contact
             </Link>
           </li>
+          <li>
+            <Link className="hover:text-white" to="/login">
+              Login
+            </Link>
+          </li>
         </div>
       </div>
     </div>
