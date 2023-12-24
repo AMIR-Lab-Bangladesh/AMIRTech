@@ -1,0 +1,20 @@
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+input[type="search"],
+input[type="tel"],
+input[type="url"],
+textarea {
+  background-color: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.25rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #4a5568;
+  width: 100%;
+  transition: all 0.2s ease-in-out;
+}

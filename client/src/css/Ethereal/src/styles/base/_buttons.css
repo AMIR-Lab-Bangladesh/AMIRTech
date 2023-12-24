@@ -144,6 +144,11 @@
   --button-link-disabled-border-color: transparent;
 }
 
+button[type="submit"] {
+  border: none;
+  cursor: pointer;
+}
+
 .btn {
   display: inline-block;
   font-weight: 400;
