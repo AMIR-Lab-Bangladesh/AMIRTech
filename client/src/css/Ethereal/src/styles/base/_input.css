@@ -8,13 +8,21 @@ input[type="search"],
 input[type="tel"],
 input[type="url"],
 textarea {
-  background-color: #fff;
-  border: 1px solid #e2e8f0;
+  background-color: #000;
+  border: 1px solid #616161;
   border-radius: 0.25rem;
-  padding: 0.5rem 0.75rem;
+  /* padding: 0.5rem 0.75rem; */
   font-size: 1rem;
   line-height: 1.5;
-  color: #4a5568;
+  color: #a7a7a7;
   width: 100%;
   transition: all 0.2s ease-in-out;
+}
+
+input[type="email"]:hover,
+input[type="email"]:focus,
+input[type="password"]:hover,
+input[type="password"]:focus {
+  border: 1px solid #6a02a7 !important;
+  color: #a7a7a7;
 }
