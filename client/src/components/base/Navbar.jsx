@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="navbar-wrapper sticky">
       <div className="navbar bg-amirtech-dark text-white px-5 py-3 lg:mx  rounded-full">
-        <div>
+        <div className="navbar-brand">
           <img src={logo} alt="logo" width={120} />
         </div>
         <div className="navbar-menu text-secondary ml-5">

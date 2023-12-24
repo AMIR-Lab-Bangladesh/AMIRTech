@@ -15,11 +15,13 @@
   flex-direction: row;
   align-items: center;
   width: fit-content;
+  animation: slideDown 0.5s ease;
 }
 
 .navbar-brand {
   font-size: 1.5rem;
   font-weight: 700;
+  animation: popIn 0.5s ease;
 }
 
 .navbar-menu {
@@ -35,7 +37,7 @@
 .navbar-menu li a {
   padding: 0.5rem 1rem;
   text-decoration: none;
-  color: #bbbb;
+  color: #aaa9a9;
   transition: all 0.3s ease-in-out;
 }
 
@@ -111,4 +113,18 @@
   100% {
     transform: translateY(0);
   }
+}
+
+@keyframes popIn {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.bg-amirtech-dark {
+  background-color: rgba(29, 29, 29, 0.5);
+  backdrop-filter: blur(4px);
 }
