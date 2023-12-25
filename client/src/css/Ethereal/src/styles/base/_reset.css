@@ -1,0 +1,85 @@
+/* Box sizing rules */
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove default padding */
+ul,
+ol {
+  padding: 0;
+}
+
+/* Reset some styles for consistent rendering across browsers */
+body {
+  line-height: 1.6;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+/* Remove hyperlink styles */
+a {
+  text-decoration: none;
+  /* color: inherit; */
+  outline: none;
+}
+
+a :link,
+a :visited,
+a :hover,
+a :active,
+a:focus {
+  text-decoration: none !important;
+  color: red;
+  outline: none;
+}
+
+/* Remove focus outline for clickable elements */
+a,
+button,
+input,
+select,
+textarea {
+  &:focus {
+    outline: none !important;
+  }
+}

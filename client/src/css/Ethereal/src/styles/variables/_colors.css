@@ -1,0 +1,168 @@
+:root {
+  --color-primary: #1b79cf;
+  --color-secondary: #4faeb4;
+  --color-success: #2ecc71;
+  --color-info: #ca77ff;
+  --color-warning: #ffb529;
+  --color-danger: #f13637;
+
+  --color-tertiary: #e74c3c;
+  --color-quaternary: #f39c12;
+  --color-quinary: #9b59b6;
+  --color-senary: #34495e;
+  --color-septenary: #d35400;
+  --color-octonary: #16a085;
+  --color-nonary: #c0392b;
+  --color-denary: #7f8c8d;
+
+  /* Light and Dark Shades */
+  --color-light: #ecf0f1; /* Light Gray */
+  --color-dark: #373737; /* Dark Gray */
+
+  /* Basic Colors */
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-gray: #808080;
+  --color-gray-light: #d3d3d3;
+  --color-gray-dark: #555555;
+
+  /* Red Tones */
+  --color-red: #ff0000;
+  --color-red-light: #ff6666;
+  --color-red-dark: #cc0000;
+
+  /* Blue Tones */
+  --color-blue: #0000ff;
+  --color-blue-light: #6666ff;
+  --color-blue-dark: #000099;
+
+  /* Green Tones */
+  --color-green: #00ff00;
+  --color-green-light: #66ff66;
+  --color-green-dark: #009900;
+
+  /* Yellow Tones */
+  --color-yellow: #ffff00;
+  --color-yellow-light: #ffff66;
+  --color-yellow-dark: #cccc00;
+
+  /* Orange Tones */
+  --color-orange: #ffa500;
+  --color-orange-light: #ffcc66;
+  --color-orange-dark: #cc8400;
+
+  /* Purple Tones */
+  --color-purple: #800080;
+  --color-purple-light: #cc66cc;
+  --color-purple-dark: #660066;
+
+  /* Pink Tones */
+  --color-pink: #ff69b4;
+  --color-pink-light: #ffb6c1;
+  --color-pink-dark: #d45087;
+
+  /* Brown Tones */
+  --color-brown: #a52a2a;
+  --color-brown-light: #d2691e;
+  --color-brown-dark: #8b4513;
+
+  /* Cyan Tones */
+  --color-cyan: #00ffff;
+  --color-cyan-light: #66ffff;
+  --color-cyan-dark: #009999;
+
+  /* Indigo Tones */
+  --color-indigo: #4b0082;
+  --color-indigo-light: #800080;
+  --color-indigo-dark: #330066;
+
+  /* Teal Tones */
+  --color-teal: #008080;
+  --color-teal-light: #00cccc;
+  --color-teal-dark: #004d4d;
+
+  /* Lime Tones */
+  --color-lime: #00ff00;
+  --color-lime-light: #66ff66;
+  --color-lime-dark: #009900;
+
+  /* Amber Tones */
+  --color-amber: #ffbf00;
+  --color-amber-light: #ffdb58;
+  --color-amber-dark: #cca300;
+
+  /* Emerald Tones */
+  --color-emerald: #008000;
+  --color-emerald-light: #00cc00;
+  --color-emerald-dark: #004d00;
+
+  /* Turquoise Tones */
+  --color-turquoise: #40e0d0;
+  --color-turquoise-light: #00ced1;
+  --color-turquoise-dark: #008b8b;
+
+  /* Olive Tones */
+  --color-olive: #808000;
+  --color-olive-light: #b4cc80;
+  --color-olive-dark: #666600;
+
+  /* Scarlet Tones */
+  --color-scarlet: #ff2400;
+  --color-scarlet-light: #ff6347;
+  --color-scarlet-dark: #cc0000;
+
+  /* Maroon Tones */
+  --color-maroon: #800000;
+  --color-maroon-light: #cc6666;
+  --color-maroon-dark: #660000;
+
+  /* Forest Tones */
+  --color-forest: #228b22;
+  --color-forest-light: #32cd32;
+  --color-forest-dark: #006400;
+
+  /* Sea Tones */
+  --color-sea: #20b2aa;
+  --color-sea-light: #87ceeb;
+  --color-sea-dark: #008080;
+
+  /* Sky Tones */
+  --color-sky: #87ceeb;
+  --color-sky-light: #add8e6;
+  --color-sky-dark: #5f9ea0;
+
+  /* Steel Tones */
+  --color-steel: #4682b4;
+  --color-steel-light: #b0c4de;
+  --color-steel-dark: #1e90ff;
+
+  /* Slate Tones */
+  --color-slate: #708090;
+  --color-slate-light: #c0c0c0;
+  --color-slate-dark: #4682b4;
+
+  /* Wood Tones */
+  --color-wood: #deb887;
+  --color-wood-light: #d2b48c;
+  --color-wood-dark: #8b4513;
+
+  /* Sand Tones */
+  --color-sand: #fdf5e6;
+  --color-sand-light: #f5deb3;
+  --color-sand-dark: #f4a460;
+
+  /* Ash Tones */
+  --color-ash: #b2beb5;
+  --color-ash-light: #c0c0c0;
+  --color-ash-dark: #708090;
+
+  /* Smoke Tones */
+  --color-smoke: #dcdcdc;
+  --color-smoke-light: #f5f5f5;
+  --color-smoke-dark: #a9a9a9;
+
+  /* Ink Tones */
+  --color-ink: #4b0082;
+  --color-ink-light: #8a2be2;
+  --color-ink-dark: #;
+}
