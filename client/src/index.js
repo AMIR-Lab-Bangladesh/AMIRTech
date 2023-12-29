@@ -17,26 +17,23 @@ export const axiosInstance = axios.create({
   },
 });
 axiosInstance.interceptors.request.use(
-  config => {
+  (config) => {
     const token = "JWT " + localStorage.getItem("access");
     if (token) {
       config.headers.authorization = token;
     }
     return config;
-    
   },
- err =>  {
+  (err) => {
     console.log(err);
     // console.log('hello')
     return Promise.reject(err);
   }
-
 );
-
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
     <Router />
-    </Provider>
+  </Provider>
 );
